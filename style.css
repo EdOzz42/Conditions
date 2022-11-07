@@ -5,11 +5,29 @@ body {
     font: normal 25px Arial;
 }
 
-div.resultado {
-    margin-top: 25px;
+.cabeçalho {
+    
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+    background-color: rgb(149, 235, 254);
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
 }
 
-input.txtcl {
-    font-size: 25px;
+.content {
+    padding: 25px;
+    font-size: 35px;
+}
+
+input {
+    font-size: 35px;
+    border-radius: 8px;
+    box-shadow: 4px 4px rgb(149, 235, 254);
+
+}
+
+.resultado {
+    margin-top: 25px;
 }
 
