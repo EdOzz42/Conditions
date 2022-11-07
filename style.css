@@ -1,7 +1,7 @@
 body {
     background: rgb(60, 74, 74);
     color: white;
-    margin: 30px;
+    margin: 35px;
     font: normal 25px Arial;
 }
 
@@ -28,6 +28,13 @@ input {
 }
 
 .resultado {
-    margin: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 39, 39);
+    height: 220px;
+    width: 450px;
+    margin-top: 45px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 4px rgb(149, 235, 254);
 }
 
