@@ -1,18 +1,26 @@
 body {
-    background: rgb(60, 74, 74);
+    background-color: rgb(60, 74, 74);;
     color: white;
     margin: 35px;
     font: normal 25px Arial;
 }
 
+main {
+    background: rgb(82, 119, 119);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    min-width: 250;
+    max-width: 1000;
+}
+
 .cabeçalho {
-    
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(39, 39, 39);
     background-color: rgb(149, 235, 254);
-    border-radius: 15px;
-    width: 60%;
-    height: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 3px;
+
 }
 
 .content {
@@ -24,17 +32,18 @@ input {
     font-size: 100%;
     border-radius: 8px;
     box-shadow: 4px 4px rgb(149, 235, 254);
+    border: none;
+    max-width: 50%;
 
 }
 
 .resultado {
     background-color: rgb(255, 255, 255);
     color: rgb(39, 39, 39);
-    height: 220px;
-    width: 450px;
     margin-top: 45px;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 4px 4px rgb(149, 235, 254);
+    box-shadow: 4px 4px  rgb(149, 235, 254);
+    max-width: 85%;
 }
 
