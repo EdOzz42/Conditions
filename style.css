@@ -25,15 +25,15 @@ main {
 
 .content {
     padding: 25px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 input {
     font-size: 100%;
     border-radius: 8px;
     box-shadow: 4px 4px rgb(149, 235, 254);
-    border: none;
-    max-width: 50%;
+    border: 3px solid rgb(95, 170, 187);
+    max-width: 90%;
 
 }
 
@@ -44,6 +44,6 @@ input {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 4px 4px  rgb(149, 235, 254);
-    max-width: 85%;
+    max-width: 100%;
 }
 
