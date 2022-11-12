@@ -1,7 +1,7 @@
 body {
     background-color: rgb(60, 74, 74);;
     color: white;
-    margin: 35px;
+    margin: 30px;
     font: normal 25px Arial;
 }
 
@@ -11,6 +11,7 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     min-width: 250;
     max-width: 1000;
+    align-items: center;
 }
 
 .cabeçalho {
@@ -33,7 +34,7 @@ input {
     border-radius: 8px;
     box-shadow: 4px 4px rgb(149, 235, 254);
     border: 3px solid rgb(95, 170, 187);
-    max-width: 90%;
+    max-width: 248px; 
 
 }
 
