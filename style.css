@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/press-start-2p');
+
 body {
     background-color: rgb(60, 74, 74);;
     color: white;
-    margin: 30px;
+    margin: 35px;
     font: normal 25px Arial;
 }
 
@@ -15,12 +17,13 @@ main {
 }
 
 .cabeçalho {
-    font-size: 25px;
-    color: rgb(39, 39, 39);
+    font-size: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(23, 47, 52);
     background-color: rgb(149, 235, 254);
     border-radius: 10px;
-    padding: 4px;
-    margin: 3px;
+    padding: 3px;
+    margin-bottom: 15px;    
 
 }
 
