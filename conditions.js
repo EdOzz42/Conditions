@@ -6,13 +6,13 @@ verificar.addEventListener("mouseenter", entrou)
 verificar.addEventListener("mouseout", saiu)
 
 function ver(){
-    var res = window.document.querySelector("div#resultado")
+    var res = window.document.querySelector("section#resultado")
     var dinheiro = Number(txtcl.value)
     res.innerHTML = `<p>Sua renda atual é de<strong> R$${dinheiro}</strong></p>`
-    if (dinheiro > 10000) {
+    if (dinheiro >= 10000) {
         res.innerHTML += "<p>Você é um <strong>burguês safado!</strong></p>"
     } else {
-        res.innerHTML += "Você clama por <strong>picanha</strong> e <strong>cerveja quentinha</strong>"
+        res.innerHTML += "<p>Você clama por <strong>picanha</strong> e <strong>cerveja quentinha</strong></p>"
     }
 } //Isto é uma condição composta, pelo fato de ter o if e o else. 
 

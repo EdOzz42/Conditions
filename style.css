@@ -1,19 +1,22 @@
 @import url('https://fonts.cdnfonts.com/css/press-start-2p');
 
 body {
-    background-color: rgb(60, 74, 74);;
+    background-color: rgb(55, 69, 69);;
     color: white;
     margin: 35px;
     font: normal 25px Arial;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px, rgb(48, 48, 48) 0px 0px 0px 8px;
 }
 
 main {
-    background: rgb(82, 119, 119);
+    background: rgb(97, 136, 136);
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     min-width: 250;
     max-width: 1000;
     align-items: center;
+    padding: 25px;
+    font-size: 32px;
 }
 
 .cabeçalho {
@@ -22,32 +25,27 @@ main {
     color: rgb(23, 47, 52);
     background-color: rgb(149, 235, 254);
     border-radius: 10px;
-    padding: 3px;
+    padding: 1px;
+    padding-left: 25px;
     margin-bottom: 15px;    
-
-}
-
-.content {
-    padding: 25px;
-    font-size: 32px;
 }
 
 input {
     font-size: 100%;
     border-radius: 8px;
     box-shadow: 4px 4px rgb(149, 235, 254);
-    border: 3px solid rgb(95, 170, 187);
-    max-width: 248px; 
-
+    border: 2.5px solid rgb(95, 170, 187);
+    max-width: 240px; 
 }
 
 .resultado {
     background-color: rgb(255, 255, 255);
     color: rgb(39, 39, 39);
     margin-top: 45px;
-    padding: 10px;
+    padding-left: 20px;
     border-radius: 8px;
     box-shadow: 4px 4px  rgb(149, 235, 254);
+    border: 2.5px solid rgb(95, 170, 187);
     max-width: 100%;
 }
 
