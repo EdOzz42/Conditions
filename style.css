@@ -1,19 +1,22 @@
 @import url('https://fonts.cdnfonts.com/css/press-start-2p');
 
+* {
+    background-color: brown;
+}
 body {
     background-color: rgb(55, 69, 69);;
     color: white;
     margin: 35px;
     font: normal 25px Arial;
     border-radius: 10px;
+    min-width: 250;
+    max-width: 1000;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px, rgb(48, 48, 48) 0px 0px 0px 8px;
 }
 
 main {
     background: rgb(97, 136, 136);
     border-radius: 10px;
-    min-width: 250;
-    max-width: 1000;
     align-items: center;
     padding: 25px;
     font-size: 32px;
@@ -26,6 +29,7 @@ main {
     background-color: rgb(149, 235, 254);
     border-radius: 10px;
     padding: 1px;
+    padding-right: 25px;
     padding-left: 25px;
     margin-bottom: 15px;    
 }
