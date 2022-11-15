@@ -28,7 +28,8 @@ main {
     padding: 1px;
     padding-right: 25px;
     padding-left: 25px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    max-width: 240px;     
 }
 
 input {
