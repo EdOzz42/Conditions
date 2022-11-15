@@ -50,3 +50,15 @@ input {
     max-width: 100%;
 }
 
+footer {
+    text-align: center;
+    font-size: 85%;
+    padding-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(149, 235, 254);
+    border: 4px solid rgba(149, 235, 254, 0.293);
+    border-radius: 4px;
+}
